@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FBC15861E5811B200AE71FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBC15851E5811B200AE71FA /* AppDelegate.swift */; };
+		3FBC15881E5811B200AE71FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBC15871E5811B200AE71FA /* ViewController.swift */; };
+		3FBC158A1E5811B200AE71FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FBC15891E5811B200AE71FA /* Assets.xcassets */; };
+		3FBC158D1E5811B200AE71FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FBC158B1E5811B200AE71FA /* Main.storyboard */; };
+		3FBC15981E5811B200AE71FA /* PeriodicTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBC15971E5811B200AE71FA /* PeriodicTimerTests.swift */; };
+		3FBC15A31E5811B300AE71FA /* PeriodicTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBC15A21E5811B300AE71FA /* PeriodicTimerUITests.swift */; };
+		3FBC15B11E58B93C00AE71FA /* Music_Box-Big_Daddy-1389738694.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3FBC15B01E58B93C00AE71FA /* Music_Box-Big_Daddy-1389738694.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FBC15941E5811B200AE71FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FBC157A1E5811B200AE71FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FBC15811E5811B200AE71FA;
+			remoteInfo = PeriodicTimer;
+		};
+		3FBC159F1E5811B300AE71FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FBC157A1E5811B200AE71FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FBC15811E5811B200AE71FA;
+			remoteInfo = PeriodicTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FBC15821E5811B200AE71FA /* PeriodicTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeriodicTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FBC15851E5811B200AE71FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FBC15871E5811B200AE71FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FBC15891E5811B200AE71FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FBC158C1E5811B200AE71FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FBC158E1E5811B200AE71FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FBC15931E5811B200AE71FA /* PeriodicTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeriodicTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FBC15971E5811B200AE71FA /* PeriodicTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicTimerTests.swift; sourceTree = "<group>"; };
+		3FBC15991E5811B200AE71FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FBC159E1E5811B300AE71FA /* PeriodicTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeriodicTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FBC15A21E5811B300AE71FA /* PeriodicTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicTimerUITests.swift; sourceTree = "<group>"; };
+		3FBC15A41E5811B300AE71FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FBC15B01E58B93C00AE71FA /* Music_Box-Big_Daddy-1389738694.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Music_Box-Big_Daddy-1389738694.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FBC157F1E5811B200AE71FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FBC15901E5811B200AE71FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FBC159B1E5811B300AE71FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FBC15791E5811B200AE71FA = {
+			isa = PBXGroup;
+			children = (
+				3FBC15841E5811B200AE71FA /* PeriodicTimer */,
+				3FBC15961E5811B200AE71FA /* PeriodicTimerTests */,
+				3FBC15A11E5811B300AE71FA /* PeriodicTimerUITests */,
+				3FBC15831E5811B200AE71FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FBC15831E5811B200AE71FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FBC15821E5811B200AE71FA /* PeriodicTimer.app */,
+				3FBC15931E5811B200AE71FA /* PeriodicTimerTests.xctest */,
+				3FBC159E1E5811B300AE71FA /* PeriodicTimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FBC15841E5811B200AE71FA /* PeriodicTimer */ = {
+			isa = PBXGroup;
+			children = (
+				3FBC15851E5811B200AE71FA /* AppDelegate.swift */,
+				3FBC15871E5811B200AE71FA /* ViewController.swift */,
+				3FBC15891E5811B200AE71FA /* Assets.xcassets */,
+				3FBC158B1E5811B200AE71FA /* Main.storyboard */,
+				3FBC158E1E5811B200AE71FA /* Info.plist */,
+				3FBC15B01E58B93C00AE71FA /* Music_Box-Big_Daddy-1389738694.mp3 */,
+			);
+			path = PeriodicTimer;
+			sourceTree = "<group>";
+		};
+		3FBC15961E5811B200AE71FA /* PeriodicTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FBC15971E5811B200AE71FA /* PeriodicTimerTests.swift */,
+				3FBC15991E5811B200AE71FA /* Info.plist */,
+			);
+			path = PeriodicTimerTests;
+			sourceTree = "<group>";
+		};
+		3FBC15A11E5811B300AE71FA /* PeriodicTimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FBC15A21E5811B300AE71FA /* PeriodicTimerUITests.swift */,
+				3FBC15A41E5811B300AE71FA /* Info.plist */,
+			);
+			path = PeriodicTimerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FBC15811E5811B200AE71FA /* PeriodicTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FBC15A71E5811B300AE71FA /* Build configuration list for PBXNativeTarget "PeriodicTimer" */;
+			buildPhases = (
+				3FBC157E1E5811B200AE71FA /* Sources */,
+				3FBC157F1E5811B200AE71FA /* Frameworks */,
+				3FBC15801E5811B200AE71FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeriodicTimer;
+			productName = PeriodicTimer;
+			productReference = 3FBC15821E5811B200AE71FA /* PeriodicTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FBC15921E5811B200AE71FA /* PeriodicTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FBC15AA1E5811B300AE71FA /* Build configuration list for PBXNativeTarget "PeriodicTimerTests" */;
+			buildPhases = (
+				3FBC158F1E5811B200AE71FA /* Sources */,
+				3FBC15901E5811B200AE71FA /* Frameworks */,
+				3FBC15911E5811B200AE71FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FBC15951E5811B200AE71FA /* PBXTargetDependency */,
+			);
+			name = PeriodicTimerTests;
+			productName = PeriodicTimerTests;
+			productReference = 3FBC15931E5811B200AE71FA /* PeriodicTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FBC159D1E5811B300AE71FA /* PeriodicTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FBC15AD1E5811B300AE71FA /* Build configuration list for PBXNativeTarget "PeriodicTimerUITests" */;
+			buildPhases = (
+				3FBC159A1E5811B300AE71FA /* Sources */,
+				3FBC159B1E5811B300AE71FA /* Frameworks */,
+				3FBC159C1E5811B300AE71FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FBC15A01E5811B300AE71FA /* PBXTargetDependency */,
+			);
+			name = PeriodicTimerUITests;
+			productName = PeriodicTimerUITests;
+			productReference = 3FBC159E1E5811B300AE71FA /* PeriodicTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FBC157A1E5811B200AE71FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Kina Winoto";
+				TargetAttributes = {
+					3FBC15811E5811B200AE71FA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					3FBC15921E5811B200AE71FA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3FBC15811E5811B200AE71FA;
+					};
+					3FBC159D1E5811B300AE71FA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3FBC15811E5811B200AE71FA;
+					};
+				};
+			};
+			buildConfigurationList = 3FBC157D1E5811B200AE71FA /* Build configuration list for PBXProject "PeriodicTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FBC15791E5811B200AE71FA;
+			productRefGroup = 3FBC15831E5811B200AE71FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FBC15811E5811B200AE71FA /* PeriodicTimer */,
+				3FBC15921E5811B200AE71FA /* PeriodicTimerTests */,
+				3FBC159D1E5811B300AE71FA /* PeriodicTimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FBC15801E5811B200AE71FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FBC158A1E5811B200AE71FA /* Assets.xcassets in Resources */,
+				3FBC15B11E58B93C00AE71FA /* Music_Box-Big_Daddy-1389738694.mp3 in Resources */,
+				3FBC158D1E5811B200AE71FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FBC15911E5811B200AE71FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FBC159C1E5811B300AE71FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FBC157E1E5811B200AE71FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FBC15881E5811B200AE71FA /* ViewController.swift in Sources */,
+				3FBC15861E5811B200AE71FA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FBC158F1E5811B200AE71FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FBC15981E5811B200AE71FA /* PeriodicTimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FBC159A1E5811B300AE71FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FBC15A31E5811B300AE71FA /* PeriodicTimerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FBC15951E5811B200AE71FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FBC15811E5811B200AE71FA /* PeriodicTimer */;
+			targetProxy = 3FBC15941E5811B200AE71FA /* PBXContainerItemProxy */;
+		};
+		3FBC15A01E5811B300AE71FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FBC15811E5811B200AE71FA /* PeriodicTimer */;
+			targetProxy = 3FBC159F1E5811B300AE71FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FBC158B1E5811B200AE71FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FBC158C1E5811B200AE71FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FBC15A51E5811B300AE71FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FBC15A61E5811B300AE71FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		3FBC15A81E5811B300AE71FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PeriodicTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gymforall.PeriodicTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3FBC15A91E5811B300AE71FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PeriodicTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gymforall.PeriodicTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3FBC15AB1E5811B300AE71FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PeriodicTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gymforall.PeriodicTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeriodicTimer.app/Contents/MacOS/PeriodicTimer";
+			};
+			name = Debug;
+		};
+		3FBC15AC1E5811B300AE71FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PeriodicTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gymforall.PeriodicTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeriodicTimer.app/Contents/MacOS/PeriodicTimer";
+			};
+			name = Release;
+		};
+		3FBC15AE1E5811B300AE71FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PeriodicTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gymforall.PeriodicTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PeriodicTimer;
+			};
+			name = Debug;
+		};
+		3FBC15AF1E5811B300AE71FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PeriodicTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gymforall.PeriodicTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PeriodicTimer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FBC157D1E5811B200AE71FA /* Build configuration list for PBXProject "PeriodicTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FBC15A51E5811B300AE71FA /* Debug */,
+				3FBC15A61E5811B300AE71FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FBC15A71E5811B300AE71FA /* Build configuration list for PBXNativeTarget "PeriodicTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FBC15A81E5811B300AE71FA /* Debug */,
+				3FBC15A91E5811B300AE71FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FBC15AA1E5811B300AE71FA /* Build configuration list for PBXNativeTarget "PeriodicTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FBC15AB1E5811B300AE71FA /* Debug */,
+				3FBC15AC1E5811B300AE71FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FBC15AD1E5811B300AE71FA /* Build configuration list for PBXNativeTarget "PeriodicTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FBC15AE1E5811B300AE71FA /* Debug */,
+				3FBC15AF1E5811B300AE71FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FBC157A1E5811B200AE71FA /* Project object */;
+}
